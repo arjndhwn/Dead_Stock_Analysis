@@ -1,6 +1,8 @@
 Diamond Inventory Capital Optimization
 An End-to-End SQL & Python Data Pipeline
 
+![Dead Stock Report](dead_stock_report.png)
+
 Project Goal
 The primary objective of this project is to identify "Dead Stock"—diamonds held in inventory for over 180 days without a sale. By isolating these items, businesses can make data-driven decisions to adjust pricing, liquidate assets, and improve cash flow.
 
@@ -31,3 +33,4 @@ Generate the data: Run python data_gen.py.
 Run the analysis: Run python analysis.py.
 
 View Results: The script will output a summary of total "Locked Capital" and the top 5 highest-value items that need immediate attention.
+
